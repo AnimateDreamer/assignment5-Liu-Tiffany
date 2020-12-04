@@ -1,0 +1,91 @@
+/*===============================================
+
+                Universal Styling
+
+================================================*/
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: sans-serif;
+}
+
+
+/*===============================================
+
+                Form Styling
+
+================================================*/
+
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.contact-form {
+    background: rgb(73, 52, 52);
+    padding: 20px;
+    max-width: 500px;
+    border-radius: 4px;
+    color: white;
+    margin: 20px auto;
+}
+
+.label_input_wrap {
+    display: block;
+}
+
+.checkbox {
+    font-size: 12px;
+    padding: 15px 0;
+}
+
+label {
+    font-weight: bold;
+}
+
+label,
+.dropdown {
+    padding: 5px 0;
+}
+
+.reset input,
+.submit input {
+    background: white;
+    color: black;
+    padding: 5px 20px;
+    display: inline;
+}
+
+.reset,
+.submit {
+    padding: 5px 0;
+}
+
+.input-section {
+    margin-bottom: 10px;
+}
+
+input {
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+textarea {
+    padding: 10px 10px;
+    border-radius: 4px;
+}
+
+select {
+    width: 150px;
+    padding: 5px 0;
+    border-radius: 4px;
+}
+
+
+/*===============================================
+
+                Image Styling
+
+================================================*/
