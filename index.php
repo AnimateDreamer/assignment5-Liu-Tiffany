@@ -35,7 +35,7 @@
                 </div>
 
                 <div class="last-name">
-                    <label for="lastname" class="label_input_wrap">First Name:</label>
+                    <label for="lastname" class="label_input_wrap">Last Name:</label>
                     <input type="text" name="req_lastname" id="lastname" placeholder="ex. Wonka" />
                 </div>
 

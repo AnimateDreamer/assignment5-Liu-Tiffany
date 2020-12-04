@@ -50,7 +50,6 @@ nav a {
     color: rgb(0, 0, 0);
     padding: 5px;
 }
-
 </style>
 
 <header>

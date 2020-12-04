@@ -51,7 +51,6 @@ nav a {
     padding: 5px;
 }
 
-
 </style>
 
 <header>
@@ -69,7 +68,7 @@ nav a {
 <div class="container">
     <h1>Thank you for your enquiry</h1>
     <p>Thanks for your interest. we have received your message, and we will be in touch shortly.</p>
-    <img src="image/cup.jpg" alt="Wonka drinking tea" title="Tea time!" width="50px" />
+    <img src="image/cup.jpg" alt="Wonka drinking tea" title="Tea time!" />
 </div>
 
 <footer>
