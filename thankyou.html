@@ -1,35 +1,71 @@
-<html lang="en">
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: sans-serif;
+    border-radius: 4px;
+}
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Thank You!</title>
+*::selection {
+    background: rgb(128, 0, 117);
+    color: yellow;
+}
 
-    <!--CSS-->
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
-</head>
+.contact-form {
+    background: rgb(73, 52, 52);
+    padding: 20px;
+    max-width: 500px;
+    border-radius: 4px;
+    color: white;
+    margin: 20px auto;
+}
 
-<body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="chocolate.html">Chocolates</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
+nav ul li {
+    display: inline;
+}
 
-            </ul>
-        </nav>
-    </header>
+header {
+    text-align: center;
+    background: white;
+    padding: 20px 0;
+}
 
-    <div class="enquiry">
-        <h1>Thank you for your enquiry</h1>
-        <p>Thanks for your interest. we have received your message, and we will be in touch shortly.</p>
-        <img src="image/cup.jpg" alt="Wonka drinking tea" title="Tea time!" />
-    </div>
+header nav a:hover {
+    color: rgb(90, 49, 49);
+}
 
-    <footer>
-        <p class="footer">Approved by Willy Wonka</p>
-    </footer>
+header nav a:active {
+    color: rgb(1, 141, 83);
+}
+
+nav a {
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 5px;
+}
+
+</style>
+
+<header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="chocolate.html">Chocolates</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+
+        </ul>  
+    </nav>      
+</header>
+
+<div class="container">
+    <h1>Thank you for your enquiry</h1>
+    <p>Thanks for your interest. we have received your message, and we will be in touch shortly.</p>
+    <img src="image/cup.jpg" alt="Wonka drinking tea" title="Tea time!" />
+</div>
+
+<footer>
+    <p class="footer">This page is designed by Tiffany Liu and approved by Willy Wonka</p>
+</footer>
