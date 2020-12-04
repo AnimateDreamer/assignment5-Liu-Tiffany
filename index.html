@@ -28,6 +28,14 @@
         <div class="container">
             <h1>Contact Us</h1>
             <p>Here's your chance to express your "sweet tooth" to your follow chocolate lovers!</p>
+            <form action="https://getsimpleform.com/messages?form_api_token=57b77b8e7803c92bdfc4e8624fd82367" method="post">
+                <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
+                <input type='hidden' name='redirect_to' value='<http://animatedreamer.com/form/thankyou.html>' />
+                <!-- all your input fields here.... -->
+                <input type='text' name='test' />
+                <input type='submit' value='Test form' />
+            </form>
+
             <form class="contact-form" name="contact-form" method="POST" action="form.php" onsubmit="return validateForm(this)">
                 <div class="first-name">
                     <label for="firstname" class="label_input_wrap">First Name:</label>
@@ -72,11 +80,11 @@
             </form>
 
             <section class="rainbow">
-                <h1>Here are some rainbow colors!</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <h1>Warning!</h1>
+                <p>Eating too much chocolate may cause sugar-rush.</p>
+                <p>Although you really should control your intake on anything in general...</p>
+                <p>Some people may get addicted to chocolate.</p>
+                <p>Please don't do fact check on this, I'm just a simple chocolate fan.</p>
             </section>
         </div>
     </main>
