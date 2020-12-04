@@ -12,11 +12,6 @@
     color: yellow;
 }
 
-body {
-    background-image: url("../image/bg.jpg");
-    background-size: contain;
-}
-
 .contact-form {
     background: rgb(73, 52, 52);
     padding: 20px;
