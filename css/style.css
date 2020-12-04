@@ -48,6 +48,7 @@ nav a {
 }
 
 h1,
+h2,
 p {
     color: white;
     background: rgb(90, 49, 49);
@@ -56,6 +57,12 @@ p {
 
 h1 {
     margin-top: 10px;
+}
+
+h2 {
+    color: red;
+    font-size: 50px;
+    font-style: italic;
 }
 
 .enquiry {
@@ -140,24 +147,8 @@ select {
 
 .rainbow {
     text-align: center;
-    padding: 20px 0;
     max-width: 100%;
-}
-
-.rainbow p:nth-child(2) {
-    color: red;
-}
-
-.rainbow p:nth-child(3) {
-    color: rgb(0, 192, 58);
-}
-
-.rainbow p:nth-child(4) {
-    color: rgb(84, 185, 243);
-}
-
-.rainbow p:nth-child(5) {
-    color: yellow;
+    padding: 20px 0;
 }
 
 .rainbow p:first-letter {
@@ -166,8 +157,13 @@ select {
 
 .rainbow p:nth-child(2):first-letter,
 .rainbow p:nth-child(4):first-letter {
-    font-size: 50px;
-    padding: 3px;
+    font-size: 30px;
+    padding: 1px;
+}
+
+.rainbow p:nth-child(3),
+.rainbow p:nth-child(5) {
+    color: rgb(155, 155, 155);
 }
 
 
@@ -177,9 +173,15 @@ select {
 
 ================================================*/
 
-img {
-    padding: 10px 100px;
+.wonka {
     max-width: 500px;
+    display: block;
+    padding: 30px;
+    margin: 0px auto;
+}
+
+.wonkabar {
+    background-image: url("../image/chocolate.jpg");
 }
 
 
