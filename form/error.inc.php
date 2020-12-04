@@ -1,10 +1,15 @@
-<style type="text/css">
+<style>
 * {
     margin: 0;
     padding: 0;
     border: 0;
     font-family: sans-serif;
     border-radius: 4px;
+}
+
+*::selection {
+    background: rgb(128, 0, 117);
+    color: yellow;
 }
 
 body {
@@ -29,6 +34,14 @@ header {
     text-align: center;
     background: white;
     padding: 20px 0;
+}
+
+header nav a:hover {
+    color: rgb(90, 49, 49);
+}
+
+header nav a:active {
+    color: rgb(1, 141, 83);
 }
 
 nav a {

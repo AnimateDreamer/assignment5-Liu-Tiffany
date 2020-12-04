@@ -1,10 +1,15 @@
-<style type="text/css">
+<style>
 * {
     margin: 0;
     padding: 0;
     border: 0;
     font-family: sans-serif;
     border-radius: 4px;
+}
+
+*::selection {
+    background: rgb(128, 0, 117);
+    color: yellow;
 }
 
 body {
@@ -31,12 +36,21 @@ header {
     padding: 20px 0;
 }
 
+header nav a:hover {
+    color: rgb(90, 49, 49);
+}
+
+header nav a:active {
+    color: rgb(1, 141, 83);
+}
+
 nav a {
     font-weight: bold;
     text-decoration: none;
     color: rgb(0, 0, 0);
     padding: 5px;
 }
+
 
 </style>
 
@@ -60,4 +74,4 @@ nav a {
 
 <footer>
     <p class="footer">This page is designed by Tiffany Liu and approved by Willy Wonka</p>
-    </footer>
+</footer>

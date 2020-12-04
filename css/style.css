@@ -12,6 +12,11 @@
     border-radius: 4px;
 }
 
+*::selection {
+    background: rgb(128, 0, 117);
+    color: yellow;
+}
+
 body {
     background-image: url("../image/bg.jpg");
     background-size: contain;
@@ -25,6 +30,14 @@ header {
     text-align: center;
     background: white;
     padding: 20px 0;
+}
+
+header nav a:hover {
+    color: rgb(90, 49, 49);
+}
+
+header nav a:active {
+    color: rgb(1, 141, 83);
 }
 
 nav a {
@@ -112,6 +125,45 @@ textarea {
 select {
     width: 150px;
     padding: 5px 0;
+}
+
+
+/*===============================================
+
+                Paragraph Styling
+
+================================================*/
+
+.rainbow {
+    text-align: center;
+    padding: 20px 0;
+    max-width: 100%;
+}
+
+.rainbow p:nth-child(2) {
+    color: red;
+}
+
+.rainbow p:nth-child(3) {
+    color: rgb(0, 192, 58);
+}
+
+.rainbow p:nth-child(4) {
+    color: rgb(84, 185, 243);
+}
+
+.rainbow p:nth-child(5) {
+    color: yellow;
+}
+
+.rainbow p:first-letter {
+    font-weight: bold;
+}
+
+.rainbow p:nth-child(2):first-letter,
+.rainbow p:nth-child(4):first-letter {
+    font-size: 50px;
+    padding: 3px;
 }
 
 
